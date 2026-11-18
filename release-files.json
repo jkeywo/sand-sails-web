@@ -3,9 +3,17 @@
     "size": 0,
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
+  "build-info.json": {
+    "size": 183,
+    "sha256": "14fd48bcabb8282512746743ab071c1045d5381606ebae227d176a5c2c72a64c"
+  },
+  "controller.html": {
+    "size": 3984,
+    "sha256": "8869d534aff624b7aa8bf66036531d6ad4789ba67f02f83aa3b79d14cae6b991"
+  },
   "index.html": {
-    "size": 31865,
-    "sha256": "6de3c2bf80ef09533dfd34c2b81852d88683c4bf73e9ca508935c789da6e4ca7"
+    "size": 33714,
+    "sha256": "c91a1d10db4bd5280c42483cfd5edb3cad6efeb24b7f06578dd7557676014e79"
   },
   "NOTICES.txt": {
     "size": 111,
@@ -13,15 +21,15 @@
   },
   "sw.js": {
     "size": 107382,
-    "sha256": "7e8565b8635a4eb5c13e6b717379a3333aaedd9264ee6ad0e9d6166ef248100c"
+    "sha256": "377dc808fbea9f0547efe403aa8efe50047d0841892b8878fd482b0eec3eaeea"
   },
   "UECommandLine.txt": {
     "size": 48,
     "sha256": "c2e95a026e33d9e1686d5651d10ec5827d706d930c3934bb435161aaa3acfffc"
   },
   "wasm-cache.json": {
-    "size": 3228,
-    "sha256": "126932caafcd558448225aadbde1c774d318f984abc459d5cc60d8da5816037a"
+    "size": 3229,
+    "sha256": "0c266c6634f56ac4e492e63b1e2aeaf250d2f771dfeb0864a7f364dd5136202b"
   },
   "wasm-compat.js": {
     "size": 70467,
@@ -41,7 +49,7 @@
   },
   "wasm-manifest.json": {
     "size": 3826,
-    "sha256": "86da70066062ed61f8a41c826cabea90ad1b7cb076e6e0004981385f6cae4995"
+    "sha256": "d1569c951ddbb4cd54cea0249fcd52f28d900d50c4bc14de7c7d0b56f28e41c7"
   },
   "wasm-memory.js": {
     "size": 11835,
@@ -104,8 +112,8 @@
     "sha256": "d5a7be605ab79e52b632ab3e84db17e9f5a8d7699dfa4a7a5a42680b192b57e6"
   },
   "SandSails/Content/ShaderAssetInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json": {
-    "size": 33454,
-    "sha256": "908b34605ac2cf965ee9a491c06f2457aebcde0641611940ca53afe7aa8f9474"
+    "size": 50414,
+    "sha256": "88191e666eca479307c54fb6a9a026c7d24448700666b0f6c4b192da414c8f0b"
   },
   "SandSails/Content/ShaderTypeInfo-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.stinfo": {
     "size": 22508,
@@ -128,24 +136,24 @@
     "sha256": "70864cfd7f419932f1f58bff706682b28cc392da3230f32797f9f3f775e6d5d5"
   },
   "SandSails/Content/Paks/SandSails-Wasm.pak.br": {
-    "size": 4872554,
-    "sha256": "7d50ad345627a5f0026fc5075d2991e746c269670434739bbf872774fc7bf96a"
+    "size": 4903376,
+    "sha256": "63782d1ee9ea0efbafcf894acc724c347d5d5b82f3a2b8bd3cdf6196724dc087"
   },
   "SandSails/Content/Paks/SandSails-Wasm.ucas.br": {
-    "size": 44532028,
-    "sha256": "c7025a2bb8181830be79b2802bb03757da353c5deb00402b82a4d01a1980bc64"
+    "size": 46690156,
+    "sha256": "13e756126ecfb804a3d1029fcc028cc03db6de5a9040dc98f59fa3b80ef45300"
   },
   "SandSails/Content/Paks/SandSails-Wasm.utoc.br": {
-    "size": 157295,
-    "sha256": "9a278532eef3db4cdf95382a8c5d5acd43f4e9bdc079fcea8d8285929bb870cc"
+    "size": 157964,
+    "sha256": "db8dc51aa1f421398c5990fcc72dad5949c498c92ff2e7484f08318b0c09646b"
   },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js.br": {
-    "size": 44727,
-    "sha256": "0d9db6a7c00246c6644e89204573a977bf1af7594dd178d2807a21bc3e314ff7"
+    "size": 44796,
+    "sha256": "bde68d378bf89b18e7869ae405037c43eeb35d4694c7ded2eb225ac2fb218345"
   },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br": {
-    "size": 25950698,
-    "sha256": "260e02dd6e8a4c2e9395ddc11fe1eef18ef545edcaf3c868e94684b2133d47fa"
+    "size": 25911037,
+    "sha256": "9bfb4f10e71533075d289b732a6efcbec2e82a4841a14e5d00b1aa2a5399eb7a"
   },
   "Engine/Config/StagedBuild_SandSails.ini": {
     "size": 3,
@@ -154,13 +162,5 @@
   "Engine/Content/Renderer/TessellationTable.bin.br": {
     "size": 100032,
     "sha256": "2e913bf6c280df65fc79e110ccf69c35d473579f7904be206fce52fc27b1eb6a"
-  },
-  "controller.html": {
-    "size": 4039,
-    "sha256": "36befc06851a6677c15c96515d6fb97f809c4211c4d755cad91ff258a6241fbb"
-  },
-  "gamepad-slots.js": {
-    "size": 1572,
-    "sha256": "24d97f6147525707174cc161650409d0e7b5c04d7d2b915791af6665fcb3a1a9"
   }
 }

@@ -36,7 +36,7 @@ function sample(){
   }
   if(pads.length){
     const pad=pads[0];
-    $('state').textContent=pad.mapping!=='standard'?'Controller found — layout is not mapped':pad.index>=4?'Controller found in a high browser slot':'Controller detected';
+    $('state').textContent=pad.mapping!=='standard'?'Controller found — layout is not mapped':'Controller detected';
     $('detail').textContent=pad.id+' · '+(pad.mapping||'unmapped')+' · browser slot '+(pad.index+1);
     if(!$('axes').children.length||$('axes').children.length!==pad.axes.length){
       $('axes').replaceChildren(...pad.axes.map((_,i)=>{const box=document.createElement('label');box.className='bar';box.textContent='Axis '+i;const meter=document.createElement('meter');meter.min=-1;meter.max=1;box.append(meter);return box}));

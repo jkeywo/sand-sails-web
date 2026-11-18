@@ -1,6 +1,8 @@
 # Sand Sails web release
 
 Desktop WebGPU browser build, published to GitHub Pages by Actions on push to main.
+[Play Sand Sails](https://jkeywo.github.io/sand-sails-web/) ·
+[Controller check](https://jkeywo.github.io/sand-sails-web/controller.html).
 Open the Pages URL in current desktop Chrome or Edge and click Start. F7 cycles
 the four visual styles; M opens Settings. The first visit reloads once so Unreal's
 native service worker can provide cross-origin isolation for Wasm threads.
@@ -22,5 +24,3 @@ publishes this ready-built site; it does not require Unreal or Emscripten.
 
 Native-host measurements do not predict Pages startup timing. Download size and
 controls are checked against the actual Pages URL after deployment.
-
-Controller diagnostics: [browser input check](https://jkeywo.github.io/sand-sails-web/controller.html).

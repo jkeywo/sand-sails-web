@@ -20,20 +20,20 @@
   {
     "path": "/SandSails/Content/Paks/SandSails-Wasm.pak",
     "url": "SandSails/Content/Paks/SandSails-Wasm.pak",
-    "size": 21109119,
-    "sha1": "b18a9c6e56bec2868010ca355781bb7d61310072"
+    "size": 21173357,
+    "sha1": "64bef470ea58cc3aae7c464070fd0188da734289"
   },
   {
     "path": "/SandSails/Content/Paks/SandSails-Wasm.ucas",
     "url": "SandSails/Content/Paks/SandSails-Wasm.ucas",
-    "size": 48276080,
-    "sha1": "f58fbab2379579d3eca3cfad5a34f1278d62a96e"
+    "size": 50465440,
+    "sha1": "c0d4b1d46a1e5fb03c9b86d7c00344b77d5efd38"
   },
   {
     "path": "/SandSails/Content/Paks/SandSails-Wasm.utoc",
     "url": "SandSails/Content/Paks/SandSails-Wasm.utoc",
-    "size": 322088,
-    "sha1": "39937c61beb3da594d953d86f532a5be4ae8be7c"
+    "size": 323918,
+    "sha1": "80ac72a3c879d79060b8e78a92243e29286c4295"
   },
   {
     "path": "/SandSails/Content/Paks/global.ucas",
@@ -68,8 +68,8 @@
   {
     "path": "/SandSails/Content/ShaderAssetInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json",
     "url": "SandSails/Content/ShaderAssetInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json",
-    "size": 33454,
-    "sha1": "337d2f923ae535840c5536e53cdbb479bb24af6c"
+    "size": 50414,
+    "sha1": "6b6e3519e452daf9d1c284717471ff22e98447cc"
   },
   {
     "path": "/SandSails/Content/ShaderTypeInfo-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.stinfo",

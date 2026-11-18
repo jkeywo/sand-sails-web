@@ -20,33 +20,33 @@
   {
     "url": "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js",
     "size": 230124,
-    "sha1": "4f6950d15113793e5c970dfa1a293328442173fe",
-    "br": 44727
+    "sha1": "6e6aa2e3eb56562affa796c553631c7e7bf73ae7",
+    "br": 44796
   },
   {
     "url": "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm",
-    "size": 141105086,
-    "sha1": "06912f6b15f89d468c16efbc21cb65b86e332864",
-    "br": 25950698,
-    "code": "be119ec7eae4ab3418eab7c22862d29bb1d834a4"
+    "size": 141121086,
+    "sha1": "54cde3b8424b1ad9c660f0e68a398299e4dfad8c",
+    "br": 25911037,
+    "code": "7f7a9ad2d21c24213c8445bb937ed2545adfe340"
   },
   {
     "url": "SandSails/Content/Paks/SandSails-Wasm.pak",
-    "size": 21109119,
-    "sha1": "b18a9c6e56bec2868010ca355781bb7d61310072",
-    "br": 4872554
+    "size": 21173357,
+    "sha1": "64bef470ea58cc3aae7c464070fd0188da734289",
+    "br": 4903376
   },
   {
     "url": "SandSails/Content/Paks/SandSails-Wasm.ucas",
-    "size": 48276080,
-    "sha1": "f58fbab2379579d3eca3cfad5a34f1278d62a96e",
-    "br": 44532028
+    "size": 50465440,
+    "sha1": "c0d4b1d46a1e5fb03c9b86d7c00344b77d5efd38",
+    "br": 46690156
   },
   {
     "url": "SandSails/Content/Paks/SandSails-Wasm.utoc",
-    "size": 322088,
-    "sha1": "39937c61beb3da594d953d86f532a5be4ae8be7c",
-    "br": 157295
+    "size": 323918,
+    "sha1": "80ac72a3c879d79060b8e78a92243e29286c4295",
+    "br": 157964
   },
   {
     "url": "SandSails/Content/Paks/global.ucas",
@@ -80,9 +80,9 @@
   },
   {
     "url": "SandSails/Content/ShaderAssetInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json",
-    "size": 33454,
-    "sha1": "337d2f923ae535840c5536e53cdbb479bb24af6c",
-    "br": 6312
+    "size": 50414,
+    "sha1": "6b6e3519e452daf9d1c284717471ff22e98447cc",
+    "br": 10274
   },
   {
     "url": "SandSails/Content/ShaderTypeInfo-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.stinfo",

@@ -274,7 +274,7 @@ td:first-child{white-space:nowrap;color:var(--accent);width:1%}
   <div id="art">
     <div class="title"><h1 id="cover-title">Sand Sails</h1>
       <div id="loader"><div class="bar" role="progressbar" aria-label="Loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressbar"><div id="bar"></div></div><div id="progress-text" role="status" aria-live="polite" data-i18n>Starting...</div></div>
-      <div id="notice" hidden></div></div></div>
+      <div id="notice" hidden></div><p style="font:12px system-ui;opacity:.75;margin-top:20px">Build 20261118T212559Z-73ccd6f2 · <a style="color:inherit" href="controller.html" target="_blank" rel="noopener">Controller check</a></p></div></div>
   <ol id="steps" aria-label="Start-up steps"></ol>
   <div id="ended" class="card endcard" hidden><h1 id="ended-title" data-i18n>Thanks for playing</h1>
     <p class="sub" data-i18n>The game has ended.</p>
@@ -331,7 +331,39 @@ for (const level of ['log', 'warn', 'error']) {
 <script src="wasm-compat.js"></script>
 <script src="wasm-prewarm.js"></script>
 <script src="wasm-play.js"></script>
-<script src="gamepad-slots.js"></script>
+<!-- Sand Sails gamepad slots -->
+<script>
+// Unreal's Wasm preview reads four array slots. Chrome can leave holes and put
+// the only connected Xbox controller at index 4 or higher. Give native input
+// stable logical slots while retaining the original Gamepad objects and controls.
+(() => {
+  if (!navigator.getGamepads || window.sandSailsGamepads) return;
+  const readBrowser = navigator.getGamepads.bind(navigator);
+  const assignments = new Map();
+  const capacity = 4;
+  function readNative() {
+    const pads = Array.from(readBrowser()).filter(pad => pad && pad.connected && pad.mapping === 'standard');
+    const present = new Set(pads.map(pad => pad.index));
+    for (const index of assignments.keys()) if (!present.has(index)) assignments.delete(index);
+    const occupied = new Set(assignments.values());
+    for (const pad of pads) {
+      if (assignments.has(pad.index)) continue;
+      const available = Array.from({length:capacity}, (_,slot) => slot).find(slot => !occupied.has(slot));
+      if (available === undefined) break;
+      assignments.set(pad.index, available);
+      occupied.add(available);
+      console.info(`Sand Sails controller: browser index ${pad.index} -> native slot ${available} (${pad.id})`);
+    }
+    const slots = Array(capacity).fill(null);
+    for (const pad of pads) if (assignments.has(pad.index)) slots[assignments.get(pad.index)] = pad;
+    return slots;
+  }
+  Object.defineProperty(navigator, 'getGamepads', {configurable:true, writable:true, value:readNative});
+  window.sandSailsGamepads = {readBrowser, assignments:() => Array.from(assignments.entries())};
+})();
+
+</script>
+<!-- /Sand Sails gamepad slots -->
 <script src="wasm-loader.js"></script>
 <script>
 // The page's default hooks: pointer lock for mouse look, taken on a click in the canvas (and within the cover's click in
