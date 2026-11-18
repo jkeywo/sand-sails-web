@@ -20,20 +20,20 @@
   {
     "path": "/SandSails/Content/Paks/SandSails-Wasm.pak",
     "url": "SandSails/Content/Paks/SandSails-Wasm.pak",
-    "size": 21173357,
-    "sha1": "64bef470ea58cc3aae7c464070fd0188da734289"
+    "size": 21183269,
+    "sha1": "1aa4b6144f28f1425f57c2372125aed58ca8ab86"
   },
   {
     "path": "/SandSails/Content/Paks/SandSails-Wasm.ucas",
     "url": "SandSails/Content/Paks/SandSails-Wasm.ucas",
-    "size": 50465440,
-    "sha1": "c0d4b1d46a1e5fb03c9b86d7c00344b77d5efd38"
+    "size": 51255248,
+    "sha1": "66ecafd2b92bc16d41a0233ba05b813b188560ed"
   },
   {
     "path": "/SandSails/Content/Paks/SandSails-Wasm.utoc",
     "url": "SandSails/Content/Paks/SandSails-Wasm.utoc",
-    "size": 323918,
-    "sha1": "80ac72a3c879d79060b8e78a92243e29286c4295"
+    "size": 331080,
+    "sha1": "c427df0dd269680f7563ce5a71f4a869fc62bcdf"
   },
   {
     "path": "/SandSails/Content/Paks/global.ucas",
@@ -86,7 +86,7 @@
   {
     "path": "/SandSails/Plugins/WebTuning/Content/Descriptors.json",
     "url": "SandSails/Plugins/WebTuning/Content/Descriptors.json",
-    "size": 49107,
-    "sha1": "a3b1f74b2aef3f3b6e94853383dbc82dd4111de9"
+    "size": 48400,
+    "sha1": "9f0d7797417023f044ca30aa35492097e05132e4"
   }
 ]

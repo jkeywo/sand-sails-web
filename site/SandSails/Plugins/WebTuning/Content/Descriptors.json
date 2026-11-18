@@ -690,19 +690,6 @@
 			"options": []
 		},
 		{
-			"name": "Values.FeelTurnBank",
-			"group": "Game feel",
-			"label": "Turn bank",
-			"unit": "",
-			"type": "float",
-			"min": 0,
-			"max": 1,
-			"step": 1,
-			"rebuild": false,
-			"toggle": true,
-			"options": []
-		},
-		{
 			"name": "Values.FeelImpacts",
 			"group": "Game feel",
 			"label": "Impacts",
@@ -1498,19 +1485,6 @@
 			"options": []
 		},
 		{
-			"name": "FeelTurnBank",
-			"group": "Game feel",
-			"label": "Turn bank",
-			"unit": "",
-			"type": "float",
-			"min": 0,
-			"max": 1,
-			"step": 1,
-			"rebuild": false,
-			"toggle": true,
-			"options": []
-		},
-		{
 			"name": "FeelImpacts",
 			"group": "Game feel",
 			"label": "Impacts",
@@ -2296,19 +2270,6 @@
 			"name": "Values.FeelSpeedCamera",
 			"group": "Game feel",
 			"label": "Speed camera",
-			"unit": "",
-			"type": "float",
-			"min": 0,
-			"max": 1,
-			"step": 1,
-			"rebuild": false,
-			"toggle": true,
-			"options": []
-		},
-		{
-			"name": "Values.FeelTurnBank",
-			"group": "Game feel",
-			"label": "Turn bank",
 			"unit": "",
 			"type": "float",
 			"min": 0,

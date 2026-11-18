@@ -20,33 +20,33 @@
   {
     "url": "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js",
     "size": 230124,
-    "sha1": "6e6aa2e3eb56562affa796c553631c7e7bf73ae7",
-    "br": 44796
+    "sha1": "2adfeac24f2c178b38fffb63c2a3931091253bb4",
+    "br": 44745
   },
   {
     "url": "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm",
-    "size": 141121086,
-    "sha1": "54cde3b8424b1ad9c660f0e68a398299e4dfad8c",
-    "br": 25911037,
-    "code": "7f7a9ad2d21c24213c8445bb937ed2545adfe340"
+    "size": 141154699,
+    "sha1": "64f9748238184bfea0275f9b3a369a03bf6c6bcd",
+    "br": 25965923,
+    "code": "2a607efcf3aa99811ff6e376fc6892f11eee399e"
   },
   {
     "url": "SandSails/Content/Paks/SandSails-Wasm.pak",
-    "size": 21173357,
-    "sha1": "64bef470ea58cc3aae7c464070fd0188da734289",
-    "br": 4903376
+    "size": 21183269,
+    "sha1": "1aa4b6144f28f1425f57c2372125aed58ca8ab86",
+    "br": 4902902
   },
   {
     "url": "SandSails/Content/Paks/SandSails-Wasm.ucas",
-    "size": 50465440,
-    "sha1": "c0d4b1d46a1e5fb03c9b86d7c00344b77d5efd38",
-    "br": 46690156
+    "size": 51255248,
+    "sha1": "66ecafd2b92bc16d41a0233ba05b813b188560ed",
+    "br": 47448444
   },
   {
     "url": "SandSails/Content/Paks/SandSails-Wasm.utoc",
-    "size": 323918,
-    "sha1": "80ac72a3c879d79060b8e78a92243e29286c4295",
-    "br": 157964
+    "size": 331080,
+    "sha1": "c427df0dd269680f7563ce5a71f4a869fc62bcdf",
+    "br": 161737
   },
   {
     "url": "SandSails/Content/Paks/global.ucas",
@@ -98,8 +98,8 @@
   },
   {
     "url": "SandSails/Plugins/WebTuning/Content/Descriptors.json",
-    "size": 49107,
-    "sha1": "a3b1f74b2aef3f3b6e94853383dbc82dd4111de9",
-    "br": 1738
+    "size": 48400,
+    "sha1": "9f0d7797417023f044ca30aa35492097e05132e4",
+    "br": 1722
   }
 ]

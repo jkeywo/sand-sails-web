@@ -3,7 +3,8 @@
 Desktop WebGPU browser build, published to GitHub Pages by Actions on push to main.
 [Play Sand Sails](https://jkeywo.github.io/sand-sails-web/) ·
 [Controller check](https://jkeywo.github.io/sand-sails-web/controller.html).
-Open the Pages URL in current desktop Chrome or Edge and click Start. F7 cycles
+Open the Pages URL in current desktop Chrome or Edge and click Start. The Sailing
+Guide opens on the current controls; Enter, Escape, A or B resumes sailing. F7 cycles
 the four visual styles; M opens Settings. The first visit reloads once so Unreal's
 native service worker can provide cross-origin isolation for Wasm threads.
 
