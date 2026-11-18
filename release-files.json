@@ -4,8 +4,8 @@
     "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   "index.html": {
-    "size": 31823,
-    "sha256": "c6beafb93bb0119b501af46d54e8f893b343d1e637ea5c6099efb8e07bd1b249"
+    "size": 31865,
+    "sha256": "6de3c2bf80ef09533dfd34c2b81852d88683c4bf73e9ca508935c789da6e4ca7"
   },
   "NOTICES.txt": {
     "size": 111,
@@ -158,5 +158,9 @@
   "controller.html": {
     "size": 4039,
     "sha256": "36befc06851a6677c15c96515d6fb97f809c4211c4d755cad91ff258a6241fbb"
+  },
+  "gamepad-slots.js": {
+    "size": 1572,
+    "sha256": "24d97f6147525707174cc161650409d0e7b5c04d7d2b915791af6665fcb3a1a9"
   }
 }
