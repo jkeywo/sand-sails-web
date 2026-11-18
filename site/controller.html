@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sand Sails — controller check</title>
+<style>
+body{margin:0;background:#171c22;color:#f4eddb;font:18px/1.5 system-ui,sans-serif}main{max-width:760px;margin:5vh auto;padding:24px}
+h1{font-size:32px}h2{font-size:24px;color:#83dfd8}a{color:#83dfd8}button{font:inherit;padding:10px 18px;background:#83dfd8;color:#13272a;border:0;border-radius:5px;cursor:pointer}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#222b33;padding:16px;font:15px/1.5 monospace}small{color:#b7c2c9}
+.bars{display:flex;flex-wrap:wrap;gap:12px}.bar{width:150px}meter{display:block;width:150px;height:24px}#buttons{min-height:2em}
+</style></head><body><main>
+<p><a href="./">← Sand Sails</a></p><h1>Controller check</h1>
+<p>Click this page, press a button on your controller, then move both sticks and squeeze the triggers.</p>
+<h2 id="state" role="status">Waiting for a controller…</h2><p id="detail"></p>
+<div id="axes" class="bars"></div><p id="buttons"></p>
+<button id="copy">Copy report</button> <small id="copied"></small>
+<pre id="report"></pre>
+<p><small>This checks the browser’s controller input directly. It does not download the game or send the report anywhere.</small></p>
+</main><script>
+'use strict';
+const $=id=>document.getElementById(id);
+const activity=new Map();
+let last={};
+function sample(){
+  const policy=document.permissionsPolicy||document.featurePolicy;
+  last={browser:navigator.userAgent,secureContext:isSecureContext,focused:document.hasFocus(),
+    gamepadAllowed:policy&&policy.allowsFeature?policy.allowsFeature('gamepad'):null,pads:[]};
+  let pads=[];
+  try{if(!navigator.getGamepads)throw new Error('Gamepad API is unavailable');pads=Array.from(navigator.getGamepads()).filter(p=>p&&p.connected)}
+  catch(error){last.error=String(error);$('state').textContent='Controller access is blocked';$('detail').textContent=String(error)}
+  for(const pad of pads){
+    const seen=activity.get(pad.index)||new Set();
+    pad.buttons.forEach((b,i)=>{if(b.pressed||b.value>0.1)seen.add('button '+i)});
+    pad.axes.forEach((a,i)=>{if(Math.abs(a)>0.2)seen.add('axis '+i)});
+    activity.set(pad.index,seen);
+    last.pads.push({id:pad.id,index:pad.index,mapping:pad.mapping,buttons:pad.buttons.length,axes:pad.axes.length,
+      inputsSeen:Array.from(seen),pressed:pad.buttons.flatMap((b,i)=>b.pressed?[i]:[])});
+  }
+  if(pads.length){
+    const pad=pads[0];
+    $('state').textContent=pad.mapping!=='standard'?'Controller found — layout is not mapped':pad.index>=4?'Controller found in a high browser slot':'Controller detected';
+    $('detail').textContent=pad.id+' · '+(pad.mapping||'unmapped')+' · browser slot '+(pad.index+1);
+    if(!$('axes').children.length||$('axes').children.length!==pad.axes.length){
+      $('axes').replaceChildren(...pad.axes.map((_,i)=>{const box=document.createElement('label');box.className='bar';box.textContent='Axis '+i;const meter=document.createElement('meter');meter.min=-1;meter.max=1;box.append(meter);return box}));
+    }
+    pad.axes.forEach((a,i)=>{$('axes').children[i].querySelector('meter').value=a});
+    $('buttons').textContent='Pressed: '+(last.pads[0].pressed.join(', ')||'none');
+  }else if(!last.error){
+    $('state').textContent='No controller detected';
+    $('detail').textContent='Keep this page focused and press a controller button. If it stays empty, Chrome has not exposed the controller to this page.';
+    $('axes').replaceChildren();$('buttons').textContent='';
+  }
+  $('report').textContent=JSON.stringify(last,null,2);
+}
+$('copy').addEventListener('click',async()=>{sample();try{await navigator.clipboard.writeText(JSON.stringify(last,null,2));$('copied').textContent='Report copied'}catch{$('copied').textContent='Select and copy the report below'}});
+window.addEventListener('gamepadconnected',sample);window.addEventListener('gamepaddisconnected',sample);
+setInterval(sample,100);sample();
+</script></body></html>

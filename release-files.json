@@ -154,5 +154,9 @@
   "Engine/Content/Renderer/TessellationTable.bin.br": {
     "size": 100032,
     "sha256": "2e913bf6c280df65fc79e110ccf69c35d473579f7904be206fce52fc27b1eb6a"
+  },
+  "controller.html": {
+    "size": 4039,
+    "sha256": "36befc06851a6677c15c96515d6fb97f809c4211c4d755cad91ff258a6241fbb"
   }
 }

@@ -22,3 +22,5 @@ publishes this ready-built site; it does not require Unreal or Emscripten.
 
 Native-host measurements do not predict Pages startup timing. Download size and
 controls are checked against the actual Pages URL after deployment.
+
+Controller diagnostics: [browser input check](https://jkeywo.github.io/sand-sails-web/controller.html).
