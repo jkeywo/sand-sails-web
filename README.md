@@ -12,6 +12,10 @@ Brotli decoder adapts network reads. Unreal retains cache integrity, range reads
 and isolation. Dependencies and their licences are in site/vendor; engine/game
 notices are in site/NOTICES.txt. No CDN scripts or runtime package downloads.
 
+Large compressed files are stored as 2 MB chunks under payload/. Actions reassembles
+and hash-checks the original site files before publishing. This also permits
+resumable uploads over connections that struggle with large Git requests.
+
 Updates: export a validated Shipping stage with Tools/prepare_github_pages.py in
 the main Unreal workspace, commit the updated site and push. GitHub Actions only
 publishes this ready-built site; it does not require Unreal or Emscripten.

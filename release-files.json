@@ -1,0 +1,158 @@
+{
+  ".nojekyll": {
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "index.html": {
+    "size": 31823,
+    "sha256": "c6beafb93bb0119b501af46d54e8f893b343d1e637ea5c6099efb8e07bd1b249"
+  },
+  "NOTICES.txt": {
+    "size": 111,
+    "sha256": "ba49ae5586f817b36a2772269f71f899cb1f54b5f2720fad951319edd5e140b8"
+  },
+  "sw.js": {
+    "size": 107382,
+    "sha256": "7e8565b8635a4eb5c13e6b717379a3333aaedd9264ee6ad0e9d6166ef248100c"
+  },
+  "UECommandLine.txt": {
+    "size": 48,
+    "sha256": "c2e95a026e33d9e1686d5651d10ec5827d706d930c3934bb435161aaa3acfffc"
+  },
+  "wasm-cache.json": {
+    "size": 3228,
+    "sha256": "126932caafcd558448225aadbde1c774d318f984abc459d5cc60d8da5816037a"
+  },
+  "wasm-compat.js": {
+    "size": 70467,
+    "sha256": "1e022f4d985fc31a5e875ca24b41cdeca5e560e172c9a5497b597fdb2d50038c"
+  },
+  "wasm-debug.js": {
+    "size": 2969,
+    "sha256": "fdc291dd1202cc05668e6ad22cf2dadc754cd6a806e16955c1b5d232cfecfca5"
+  },
+  "wasm-harness.js": {
+    "size": 7321,
+    "sha256": "e41709b840a667080145dfe24ab3f01d7a2cf505c0973dfb27a4e9b7dd8c68ad"
+  },
+  "wasm-loader.js": {
+    "size": 48447,
+    "sha256": "112b5b1c97abe45f5344ae48e13e6a9041c858779c23e5760bc33e2dbe4809cd"
+  },
+  "wasm-manifest.json": {
+    "size": 3826,
+    "sha256": "86da70066062ed61f8a41c826cabea90ad1b7cb076e6e0004981385f6cae4995"
+  },
+  "wasm-memory.js": {
+    "size": 11835,
+    "sha256": "d1620ee3eed4c19c40694d18c9036493b737bdd00377a14dc76c43261953d3cb"
+  },
+  "wasm-play.js": {
+    "size": 50370,
+    "sha256": "f16b7f48fb6af4e001673d1a39e5cd0f6306ab0cc42581649cbb1dd845d004cc"
+  },
+  "wasm-prewarm.js": {
+    "size": 54909,
+    "sha256": "27a1dc5b7d321794e640415ca0794f9d7961c0bf326ac6adc0764fec8ba7bec4"
+  },
+  "wasm-profile.js": {
+    "size": 7574,
+    "sha256": "a6068457d1c066e36f17d66e137a45c1ab1d058ac6e10adfaa3667a57bc73af6"
+  },
+  "wasm-strings.js": {
+    "size": 576,
+    "sha256": "d0456f219aa2d5f0e7f9e2b06497b72d232e06d75e0d8e270d9598821845d7d4"
+  },
+  "wasm-tiers.json": {
+    "size": 95,
+    "sha256": "bf24f2489685ea543006fa0541d20306b000a0832682ae2d1d61f780b330c4e5"
+  },
+  "Engine/GlobalShaderCache-SP_WEBGPU_ES3_1_DEFERRED.bin.br": {
+    "size": 99165,
+    "sha256": "80cf9afa4792859b72c5859967aef8e3194c84a8e78a752a6f84d49826059966"
+  },
+  "vendor/brotli-decoder.js": {
+    "size": 9370,
+    "sha256": "211429156a0f080e0f24608c07428ba15e9958e950f9479fb83fc3d6107b9d0d"
+  },
+  "vendor/brotli-decoder.wasm.gz": {
+    "size": 97471,
+    "sha256": "a81911981ff71c3223d318de18e9a656a757f69fd7af104c54d181958a689101"
+  },
+  "vendor/LICENSE-Apache.txt": {
+    "size": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "vendor/LICENSE-MIT.txt": {
+    "size": 1081,
+    "sha256": "e896322d037d6154296c5b3d1876a90977770704dd74799751f52f27e0483905"
+  },
+  "vendor/README.md": {
+    "size": 192,
+    "sha256": "fcbf36b755b76874a03c1e767be5dc293fe67195dd409fce4d585f40e3005965"
+  },
+  "SandSails/Content/ShaderArchive-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode.br": {
+    "size": 2582483,
+    "sha256": "ce8ff1271dd24e85f88c3b43e610aadcb4fbc359a0106b81285a81e8ef95f413"
+  },
+  "SandSails/Content/ShaderArchive-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode.br": {
+    "size": 1080378,
+    "sha256": "7b6accc396e32fc8abcc2c36cfa00bc0a20712d43bc336a82300973e567a5682"
+  },
+  "SandSails/Content/ShaderAssetInfo-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json": {
+    "size": 17774,
+    "sha256": "d5a7be605ab79e52b632ab3e84db17e9f5a8d7699dfa4a7a5a42680b192b57e6"
+  },
+  "SandSails/Content/ShaderAssetInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json": {
+    "size": 33454,
+    "sha256": "908b34605ac2cf965ee9a491c06f2457aebcde0641611940ca53afe7aa8f9474"
+  },
+  "SandSails/Content/ShaderTypeInfo-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.stinfo": {
+    "size": 22508,
+    "sha256": "f61b72162109c04fea116f1302d068e54e4c1af15834d5377d71a58f08f04cb4"
+  },
+  "SandSails/Content/ShaderTypeInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.stinfo": {
+    "size": 10376,
+    "sha256": "6b297a433a406d7f3a28f17e4cc50723a0b8dd1dc2e62735b2cbb2a630a57b62"
+  },
+  "SandSails/Plugins/WebTuning/Content/Descriptors.json": {
+    "size": 49107,
+    "sha256": "3fd13b004f76018855da7358d8b7b14e804020e06750701d46f69afdeaccd768"
+  },
+  "SandSails/Content/Paks/global.ucas": {
+    "size": 16,
+    "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+  },
+  "SandSails/Content/Paks/global.utoc": {
+    "size": 206,
+    "sha256": "70864cfd7f419932f1f58bff706682b28cc392da3230f32797f9f3f775e6d5d5"
+  },
+  "SandSails/Content/Paks/SandSails-Wasm.pak.br": {
+    "size": 4872554,
+    "sha256": "7d50ad345627a5f0026fc5075d2991e746c269670434739bbf872774fc7bf96a"
+  },
+  "SandSails/Content/Paks/SandSails-Wasm.ucas.br": {
+    "size": 44532028,
+    "sha256": "c7025a2bb8181830be79b2802bb03757da353c5deb00402b82a4d01a1980bc64"
+  },
+  "SandSails/Content/Paks/SandSails-Wasm.utoc.br": {
+    "size": 157295,
+    "sha256": "9a278532eef3db4cdf95382a8c5d5acd43f4e9bdc079fcea8d8285929bb870cc"
+  },
+  "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js.br": {
+    "size": 44727,
+    "sha256": "0d9db6a7c00246c6644e89204573a977bf1af7594dd178d2807a21bc3e314ff7"
+  },
+  "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br": {
+    "size": 25950698,
+    "sha256": "260e02dd6e8a4c2e9395ddc11fe1eef18ef545edcaf3c868e94684b2133d47fa"
+  },
+  "Engine/Config/StagedBuild_SandSails.ini": {
+    "size": 3,
+    "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+  },
+  "Engine/Content/Renderer/TessellationTable.bin.br": {
+    "size": 100032,
+    "sha256": "2e913bf6c280df65fc79e110ccf69c35d473579f7904be206fce52fc27b1eb6a"
+  }
+}

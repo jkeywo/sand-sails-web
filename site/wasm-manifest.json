@@ -1,0 +1,92 @@
+[
+  {
+    "path": "/Engine/Config/StagedBuild_SandSails.ini",
+    "url": "Engine/Config/StagedBuild_SandSails.ini",
+    "size": 3,
+    "sha1": "57218c316b6921e2cd61027a2387edc31a2d9471"
+  },
+  {
+    "path": "/Engine/Content/Renderer/TessellationTable.bin",
+    "url": "Engine/Content/Renderer/TessellationTable.bin",
+    "size": 259568,
+    "sha1": "3a3402ca2d3531ab8352c818ea1181288bd78c72"
+  },
+  {
+    "path": "/Engine/GlobalShaderCache-SP_WEBGPU_ES3_1_DEFERRED.bin",
+    "url": "Engine/GlobalShaderCache-SP_WEBGPU_ES3_1_DEFERRED.bin",
+    "size": 821553,
+    "sha1": "ee6035639381216890663a2b15a8fa25bcacf1e1"
+  },
+  {
+    "path": "/SandSails/Content/Paks/SandSails-Wasm.pak",
+    "url": "SandSails/Content/Paks/SandSails-Wasm.pak",
+    "size": 21109119,
+    "sha1": "b18a9c6e56bec2868010ca355781bb7d61310072"
+  },
+  {
+    "path": "/SandSails/Content/Paks/SandSails-Wasm.ucas",
+    "url": "SandSails/Content/Paks/SandSails-Wasm.ucas",
+    "size": 48276080,
+    "sha1": "f58fbab2379579d3eca3cfad5a34f1278d62a96e"
+  },
+  {
+    "path": "/SandSails/Content/Paks/SandSails-Wasm.utoc",
+    "url": "SandSails/Content/Paks/SandSails-Wasm.utoc",
+    "size": 322088,
+    "sha1": "39937c61beb3da594d953d86f532a5be4ae8be7c"
+  },
+  {
+    "path": "/SandSails/Content/Paks/global.ucas",
+    "url": "SandSails/Content/Paks/global.ucas",
+    "size": 16,
+    "sha1": "e129f27c5103bc5cc44bcdf0a15e160d445066ff"
+  },
+  {
+    "path": "/SandSails/Content/Paks/global.utoc",
+    "url": "SandSails/Content/Paks/global.utoc",
+    "size": 206,
+    "sha1": "feefe947075479c18ecefc4229e5e36a5e043313"
+  },
+  {
+    "path": "/SandSails/Content/ShaderArchive-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode",
+    "url": "SandSails/Content/ShaderArchive-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode",
+    "size": 5315027,
+    "sha1": "52d78a7b1d2f28e76944326a8b452f9c0a7c0c74"
+  },
+  {
+    "path": "/SandSails/Content/ShaderArchive-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode",
+    "url": "SandSails/Content/ShaderArchive-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode",
+    "size": 2269621,
+    "sha1": "ff9822591f7e90c81e5efa5aa04a56dea97f6091"
+  },
+  {
+    "path": "/SandSails/Content/ShaderAssetInfo-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json",
+    "url": "SandSails/Content/ShaderAssetInfo-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json",
+    "size": 17774,
+    "sha1": "2796066780ed7e5dc3fa6383209486d0ad96028d"
+  },
+  {
+    "path": "/SandSails/Content/ShaderAssetInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json",
+    "url": "SandSails/Content/ShaderAssetInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json",
+    "size": 33454,
+    "sha1": "337d2f923ae535840c5536e53cdbb479bb24af6c"
+  },
+  {
+    "path": "/SandSails/Content/ShaderTypeInfo-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.stinfo",
+    "url": "SandSails/Content/ShaderTypeInfo-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.stinfo",
+    "size": 22508,
+    "sha1": "95e3eab95b17f199dec0dd0921824e546aa2c854"
+  },
+  {
+    "path": "/SandSails/Content/ShaderTypeInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.stinfo",
+    "url": "SandSails/Content/ShaderTypeInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.stinfo",
+    "size": 10376,
+    "sha1": "eb906e290bf50c56b82ec9b2d55c4ac19cfe5ec7"
+  },
+  {
+    "path": "/SandSails/Plugins/WebTuning/Content/Descriptors.json",
+    "url": "SandSails/Plugins/WebTuning/Content/Descriptors.json",
+    "size": 49107,
+    "sha1": "a3b1f74b2aef3f3b6e94853383dbc82dd4111de9"
+  }
+]

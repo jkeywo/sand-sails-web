@@ -1,0 +1,5 @@
+site/** -text whitespace=cr-at-eol
+payload/** binary
+*.br binary
+*.gz binary
+*.wasm binary
