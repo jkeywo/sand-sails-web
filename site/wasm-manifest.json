@@ -18,22 +18,46 @@
     "sha1": "ee6035639381216890663a2b15a8fa25bcacf1e1"
   },
   {
+    "path": "/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak",
+    "url": "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak",
+    "size": 21183270,
+    "sha1": "ea84c23a27cca41996dbd0ba10d8c74116d9c3a6",
+    "set": "astc"
+  },
+  {
+    "path": "/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas",
+    "url": "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas",
+    "size": 56618544,
+    "sha1": "f259dfdb64a15464527de8bed5ff11e63f1e6a6b",
+    "set": "astc"
+  },
+  {
+    "path": "/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.utoc",
+    "url": "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.utoc",
+    "size": 336648,
+    "sha1": "37197bac1db08e2e7887386c518df65c2f365ff3",
+    "set": "astc"
+  },
+  {
     "path": "/SandSails/Content/Paks/SandSails-Wasm.pak",
     "url": "SandSails/Content/Paks/SandSails-Wasm.pak",
-    "size": 21183269,
-    "sha1": "1aa4b6144f28f1425f57c2372125aed58ca8ab86"
+    "size": 21183270,
+    "sha1": "327f399d12e59b6a11b265f8fb8ce8d966030521",
+    "set": "bc"
   },
   {
     "path": "/SandSails/Content/Paks/SandSails-Wasm.ucas",
     "url": "SandSails/Content/Paks/SandSails-Wasm.ucas",
     "size": 51255248,
-    "sha1": "66ecafd2b92bc16d41a0233ba05b813b188560ed"
+    "sha1": "66ecafd2b92bc16d41a0233ba05b813b188560ed",
+    "set": "bc"
   },
   {
     "path": "/SandSails/Content/Paks/SandSails-Wasm.utoc",
     "url": "SandSails/Content/Paks/SandSails-Wasm.utoc",
     "size": 331080,
-    "sha1": "c427df0dd269680f7563ce5a71f4a869fc62bcdf"
+    "sha1": "c427df0dd269680f7563ce5a71f4a869fc62bcdf",
+    "set": "bc"
   },
   {
     "path": "/SandSails/Content/Paks/global.ucas",

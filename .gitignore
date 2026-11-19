@@ -1,4 +1,6 @@
 __pycache__/
 /site/SandSails/Content/Paks/SandSails-Wasm.pak.br
 /site/SandSails/Content/Paks/SandSails-Wasm.ucas.br
+/site/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br
+/site/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br
 /site/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br

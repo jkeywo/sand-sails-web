@@ -1,7 +1,7 @@
 {
   "SandSails/Content/Paks/SandSails-Wasm.pak.br": {
-    "size": 4902902,
-    "sha256": "7af9c89cb90a1829159c8b885b02cc73793ba20e0230370209fbaf9ae2c6cfa7",
+    "size": 4902018,
+    "sha256": "b7989fc02142430c72355aa6e8f57e380e8d5ed27edc6691c6164923b40d45de",
     "parts": [
       {
         "path": "payload/SandSails/Content/Paks/SandSails-Wasm.pak.br.part-000",
@@ -9,11 +9,11 @@
       },
       {
         "path": "payload/SandSails/Content/Paks/SandSails-Wasm.pak.br.part-001",
-        "sha256": "582527d856d36e8fb71cddbdd42ce8111894cbe301540c39765a0ac623df5711"
+        "sha256": "eb83b9d73b81e1e8b604a34ff46eefe2da5e910722798704558a16cfe0bf6465"
       },
       {
         "path": "payload/SandSails/Content/Paks/SandSails-Wasm.pak.br.part-002",
-        "sha256": "efdffefabaa09f2e460345b7f12ae37510875de2f9280d9441c4dc08e81493d1"
+        "sha256": "d2f82ade962e410db75c9cd962325874157d087f2a1a4e2494fc5b49de2b950f"
       }
     ]
   },
@@ -119,61 +119,193 @@
       }
     ]
   },
+  "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br": {
+    "size": 4902116,
+    "sha256": "eb53eef2f99e43ac2b834a668bf58da21198ba4b847fc292e19a508b038ad347",
+    "parts": [
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br.part-000",
+        "sha256": "e9492e6463865447327db38866c9344854acf5e204b492b50195f3ea1ee7f0c8"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br.part-001",
+        "sha256": "66c6e2049fef0513756edbd3bc751cbb043647ccbe7ed0992a6b1aa7bd1d9b38"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br.part-002",
+        "sha256": "d8a510b9b6f555bbbfb9964561a4df066e6d2c212866ab96a2a40c039650b909"
+      }
+    ]
+  },
+  "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br": {
+    "size": 52606071,
+    "sha256": "85268c62a9f3bff4e23459d8f551b4d4fa5756c53c50653ed592ff531e0d3465",
+    "parts": [
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-000",
+        "sha256": "a7e6a83260f9d423e273e038a4d24c270e75bc28771da1ecbf51d87864da2185"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-001",
+        "sha256": "a8e5e9964066b36f6975b12d8d7a36e451aa6ececff3827f4b0b5c822cb737f3"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-002",
+        "sha256": "95fe092b5868dc195a87477225f2427228a3b1f94cd715d8438845967a0a5e37"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-003",
+        "sha256": "e7bd02fa3d645fd00324bdda6ed3863bfc39308117e79755fe7ab5addb2952f5"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-004",
+        "sha256": "c332bf8a45175ac0053608f146f6f8f5189cad8e8c2dfe0792cecb159f78bc6a"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-005",
+        "sha256": "4778694a57f8203b9a938ec2233f30bd32254aed9af85f20491dd7df2e238ddd"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-006",
+        "sha256": "2dd8683e8da57c4232f7d99e506ff43f3fc1ee3d5b743efc00baf94e12558396"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-007",
+        "sha256": "90f7795b737f1b8f8024befae27993bc6971f8c0a4424056ac95535974316b74"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-008",
+        "sha256": "ffc826f66b2aa0dfb0a12d25e7ab9e33a7a6c7941c209309730c444876ab735d"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-009",
+        "sha256": "217ab901a98df558cbd3987aa54a7e5b7d5de043756487a97e3b9e7b963d307f"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-010",
+        "sha256": "33020c991efb171c8bca1a9fbd68041c24d81d7371e8c14fc154b18289bde637"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-011",
+        "sha256": "621c00fe83fb70bfd6e64bd43f562e43ca75d5fe5e5ed8dbc7f29e799c5fedc7"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-012",
+        "sha256": "1c48174998342f31716d5fb89b288ee38b92ddb67a22be399aedd65a36b388c5"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-013",
+        "sha256": "de8e06a606682aac31154c40c845c650aaf81f76ff1b0ff2560ec93686b60160"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-014",
+        "sha256": "7facd3321499f64cbe966367fd81c26e6924988785f15750ee0bc318e34f2dd1"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-015",
+        "sha256": "23db14db16b39dc73b960474d5256d43f65c7a436d57bf946c9a5bd81758eb98"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-016",
+        "sha256": "ea6d94e7f5748639e42b823f72046ceeb8908660d50c5a5761664b38789a813b"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-017",
+        "sha256": "4f566c1162ccd4c746b9a3de325d963594e9a6d0d26cbd8af0bb37c551577a86"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-018",
+        "sha256": "f7951e47705e2ade42e8c686940a89acfe0febbeeb296961d87bc1096aab66c7"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-019",
+        "sha256": "453654777829df2108ad6a81737245b869bf7d07bfa552beef8e2ff204950a2e"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-020",
+        "sha256": "5db68ada8554833e53dd89a9238d065dd1e9085c0161464d59e6699e57f74e1a"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-021",
+        "sha256": "c0329ac99df6f20627f8ed98fcf6e62fb95e0f08375f6210d33e324513251cc4"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-022",
+        "sha256": "83f34f1e6a79ad5d8d9aedf96ef422bb9fc4f057e2db3bf83c36abb25068225e"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-023",
+        "sha256": "ef3cdf236b3c13c8637ab238b79873394b439a52ca00537afcbc7f1551ce19d9"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-024",
+        "sha256": "21c3ba9b46bedbaa6ff6ef4ecaa7a31f2a071882e36772f85b9c0d5e716e3a25"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-025",
+        "sha256": "a9ae1c9ce24d7c76cca5e7218ef8af706ebad405b41f777d6ac92ffe6ba5a02f"
+      },
+      {
+        "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas.br.part-026",
+        "sha256": "84a8f05b2b1c118e87b7433f3dc3a2912886446f04e0b1860c72a18e94eb8106"
+      }
+    ]
+  },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br": {
-    "size": 25965923,
-    "sha256": "34ad002624e940415583f339e34e08dfcce897256d482a84e84514e98aac05e5",
+    "size": 25990389,
+    "sha256": "3428688121f4b25d4c6c100e5e1169f1835114992990669ceb85a4d00dedfaf3",
     "parts": [
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-000",
-        "sha256": "837614a8a3e612e23a2f0cd8be0fab2b4db279ff094847f2f414bf722dafa384"
+        "sha256": "6a671bb061a5ebb1715712ede1dcfa8834cefea05288a7ae12d1188bbf79b568"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-001",
-        "sha256": "9a6567bdaee8f7dd64b37ace6bbf60bb032508b5ae4337b0c5f9b389a2ceb1f4"
+        "sha256": "1cda2de0e61322cc221c732e08f93f87b802696d882e50f28e3722a00bd32877"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-002",
-        "sha256": "bfa550c43f4fd9ff3c92de455b784cd5baed4029367fbd84c569a22a1ea1a775"
+        "sha256": "cb52ea2f7d1a9dce9e450186e77178b91db33d0b60320c1f96603fdc2d133f94"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-003",
-        "sha256": "d53b9259f584beedfe3b405b91f1be47558a45cb4cd9c553d99ac535f35551cb"
+        "sha256": "5e61f3fccd2a2825e8bdbe5836b0ba548396f43510cab79898a499a99fe4dc38"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-004",
-        "sha256": "2fb58341a9a6c83720a32b963a8aa37900ed409d899e19075a03b37ef23e657d"
+        "sha256": "9c8357d1d8de96d5e25472e1264bdb5ef5716dddc1d300ef585fada943ebb658"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-005",
-        "sha256": "b7ab40604515a5202bd2e5b6a080c80a196a41b110880257bc3217f5444cc078"
+        "sha256": "2925e03656382b8e1860056e8cd64694dcb4d9c89288e8995394bd7da6e2376c"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-006",
-        "sha256": "82a3014705678d993f143bcc1e9a1ac8bcbf10540cff9f25ab596eac5cacd913"
+        "sha256": "f9daed892626bb19398fef8872b99af32a81e463cbfcd188190f5f782bfe9ef4"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-007",
-        "sha256": "c5f8f8c684181d6c22a85b6295c4728398f155d333bab08ad50a4f849fa5df99"
+        "sha256": "5447cbbad85febe52564907e394fcb70937326a86038aa609059bf6f3e3f9e30"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-008",
-        "sha256": "88a56ee1cd1a3137577b28d6656b1e0f4e00231924ee8d115895446c315ea65d"
+        "sha256": "a1f64c4ec650062c57df1b90659054327c99b1f0b4d412db129dfa01a7dfcf09"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-009",
-        "sha256": "5eae71fde8452558707e9064b0634256dd0c4d5f825a3bf1fb2265621eff126b"
+        "sha256": "5cef165ee58d0e7ef50b7e5da761eb195f2d79b54e03e510e5a44516afbc6530"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-010",
-        "sha256": "eb3d6ede268ae7294a8eea2fb6adfe326cd3457bc7fd7e3852f3061afa9f8151"
+        "sha256": "0dd8bb86b38a518c1f7d7495ca544afa919c8bda95036b0f2d8083561da620a2"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-011",
-        "sha256": "c6ae32c0ed217b53566d83370f865ac0fa332b0380ea8bb88daca3e1426d3b7a"
+        "sha256": "c44255dde9661af59cea12612b51b228955327098873b85184a4ec04030c12bf"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-012",
-        "sha256": "bccab2d5f44071972a8f59b1a8ad15ec210dd13235ba9769359314c75c12ff48"
+        "sha256": "853b676bace8b235a37688113477a709262588db2ff6d9176e16442a49eb1ba3"
       }
     ]
   }
