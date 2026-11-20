@@ -82,6 +82,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "0D0C38EBC42F86E6",
+			"Assets": [
+				"/Game/Effects/M_DailyStormShadow"
+			]
+		},
+		{
 			"ShaderMapHash": "0D1072BAC8B97AE7",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Transmission_DS"
@@ -397,6 +403,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "314499127457B561",
+			"Assets": [
+				"/Game/Effects/M_DailyStormBank"
+			]
+		},
+		{
 			"ShaderMapHash": "3160967BA93C1ED3",
 			"Assets": [
 				"/HairStrands/Materials/HairDefaultMaterial"
@@ -478,12 +490,6 @@
 			"ShaderMapHash": "4A3CE3E61BBEE6AF",
 			"Assets": [
 				"/Game/Materials/GoggleGlass"
-			]
-		},
-		{
-			"ShaderMapHash": "4AD94AC4C57A9250",
-			"Assets": [
-				"/Game/Effects/M_GroundSailingHUD"
 			]
 		},
 		{
@@ -866,6 +872,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "7721F47B1228EB4E",
+			"Assets": [
+				"/Game/SailingData/M_BirdFlock"
+			]
+		},
+		{
 			"ShaderMapHash": "77222CC18C09A1BB",
 			"Assets": [
 				"/Engine/EngineMaterials/DefaultMaterial"
@@ -931,6 +943,18 @@
 			"Assets": [
 				"/Engine/EditorLandscapeResources/MaskBrushMaterial",
 				"/Engine/EditorLandscapeResources/MaskBrushMaterial_MaskedRegion"
+			]
+		},
+		{
+			"ShaderMapHash": "89D7C15244AA9F73",
+			"Assets": [
+				"/Game/Effects/M_GroundSailingHUD"
+			]
+		},
+		{
+			"ShaderMapHash": "8E9E090A8D2C1D42",
+			"Assets": [
+				"/Game/Effects/M_DailyStormShadowAmbient"
 			]
 		},
 		{
@@ -1239,12 +1263,6 @@
 			"ShaderMapHash": "B7B45317A4AF1E21",
 			"Assets": [
 				"/Engine/EngineMaterials/Widget3DPassThrough_Masked"
-			]
-		},
-		{
-			"ShaderMapHash": "C02944C3696B43EE",
-			"Assets": [
-				"/Game/Effects/M_StormBank"
 			]
 		},
 		{
