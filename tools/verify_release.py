@@ -1,5 +1,5 @@
 """Check release bytes after Git checkout, before uploading a Pages artifact."""
-import hashlib
+from file_hash import file_hash
 import json
 from pathlib import Path
 
@@ -19,7 +19,7 @@ for relative, info in expected.items():
     path = site/relative
     assert not path.is_symlink(), f'Symlink: {relative}'
     assert path.stat().st_size == info['size'], f'Size mismatch: {relative}'
-    assert hashlib.sha256(path.read_bytes()).hexdigest() == info['sha256'], f'Hash mismatch: {relative}'
+    assert file_hash(path) == info['sha256'], f'Hash mismatch: {relative}'
     if relative not in chunked:
         assert info['size'] < 100*1024*1024, f'File too large for Git: {relative}'
 print(f'Verified {len(expected)} release files, {sum(x["size"] for x in expected.values()):,} static bytes.')

@@ -872,12 +872,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "790517572F5A3961",
-			"Assets": [
-				"/Game/Materials/RockGrey"
-			]
-		},
-		{
 			"ShaderMapHash": "7BC9CC7B375E53AE",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Opaque_DS"
@@ -940,15 +934,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "8B6238C16C402CAF",
-			"Assets": [
-				"/Game/Effects/M_StormCloud"
-			]
-		},
-		{
 			"ShaderMapHash": "90245671F93B35E2",
 			"Assets": [
 				"/Game/Activities/M_ActivityColour"
+			]
+		},
+		{
+			"ShaderMapHash": "913598F66E43F434",
+			"Assets": [
+				"/Game/Effects/M_NiagaraDesert"
 			]
 		},
 		{
@@ -1012,9 +1006,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "A3197D68CDC2F7CF",
+			"ShaderMapHash": "A2C4987BF8DE6E7B",
 			"Assets": [
-				"/Game/Materials/RockOchre"
+				"/Game/Activities/M_SeededBuilding"
 			]
 		},
 		{
@@ -1248,6 +1242,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "C02944C3696B43EE",
+			"Assets": [
+				"/Game/Effects/M_StormBank"
+			]
+		},
+		{
 			"ShaderMapHash": "C043D7570766FDD1",
 			"Assets": [
 				"/Game/Desert/Cladding/M_CliffFaceParent"
@@ -1263,6 +1263,12 @@
 			"ShaderMapHash": "C4B248CF8C1462CA",
 			"Assets": [
 				"/Game/Materials/PilotSkin"
+			]
+		},
+		{
+			"ShaderMapHash": "C6CD75971D845C59",
+			"Assets": [
+				"/Game/Desert/M_SeededRock"
 			]
 		},
 		{
@@ -1287,12 +1293,6 @@
 			"ShaderMapHash": "D2DE57B02D1DFB8E",
 			"Assets": [
 				"/Game/Materials/Patch"
-			]
-		},
-		{
-			"ShaderMapHash": "D58380891E014161",
-			"Assets": [
-				"/Game/Effects/M_NiagaraDesert"
 			]
 		},
 		{
@@ -1363,12 +1363,6 @@
 			"ShaderMapHash": "EC0D1FD6F2F0241C",
 			"Assets": [
 				"/InterchangeAssets/gltf/M_ClearCoat"
-			]
-		},
-		{
-			"ShaderMapHash": "ED87E97B1BF75E1E",
-			"Assets": [
-				"/Game/Materials/RockUmber"
 			]
 		},
 		{
