@@ -2,7 +2,7 @@ importScripts('./vendor/brotli-decoder.js');
 // GitHub Pages serves static bytes without Content-Encoding negotiation. Only
 // these network reads are adapted; Unreal's worker still owns caching/ranges/SHA-1.
 (() => {
-  const files = {"Engine/Content/Renderer/TessellationTable.bin":{"size":259568,"type":"application/octet-stream"},"Engine/GlobalShaderCache-SP_WEBGPU_ES3_1_DEFERRED.bin":{"size":823643,"type":"application/octet-stream"},"SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js":{"size":230124,"type":"text/javascript"},"SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm":{"size":144903818,"type":"application/wasm"},"SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak":{"size":9786737,"type":"application/octet-stream"},"SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.utoc":{"size":573723,"type":"application/octet-stream"},"SandSails/Content/Paks/SandSails-Wasm.pak":{"size":9786737,"type":"application/octet-stream"},"SandSails/Content/Paks/SandSails-Wasm.utoc":{"size":562767,"type":"application/octet-stream"},"SandSails/Content/ShaderArchive-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode":{"size":5321967,"type":"application/octet-stream"},"SandSails/Content/ShaderArchive-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode":{"size":2478480,"type":"application/octet-stream"}};
+  const files = {"Engine/Content/Renderer/TessellationTable.bin":{"size":259568,"type":"application/octet-stream"},"Engine/GlobalShaderCache-SP_WEBGPU_ES3_1_DEFERRED.bin":{"size":823643,"type":"application/octet-stream"},"SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm":{"size":144903818,"type":"application/wasm"},"SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak":{"size":9786737,"type":"application/octet-stream"},"SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.utoc":{"size":573723,"type":"application/octet-stream"},"SandSails/Content/Paks/SandSails-Wasm.pak":{"size":9786737,"type":"application/octet-stream"},"SandSails/Content/Paks/SandSails-Wasm.utoc":{"size":562767,"type":"application/octet-stream"},"SandSails/Content/ShaderArchive-Global-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode":{"size":5321967,"type":"application/octet-stream"},"SandSails/Content/ShaderArchive-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.ushaderbytecode":{"size":2478480,"type":"application/octet-stream"}};
   const network = self.fetch.bind(self);
   const base = new URL('./', self.location.href);
   let decoderReady;
@@ -304,7 +304,7 @@ async function prefetchLate(clientId, started = true) {
   await Promise.all(wanted.filter(textPak).map(([url, entry]) => fill(url, entry)));
   if (started && wasmStoredAtStart) {
     await new Promise((resolve) => setTimeout(resolve, 5000));
-    await fillHttpCache(map);
+    // Pages keeps the decoded module in the data cache.
   }
 }
 // The browser keeps the code it compiled for a WebAssembly module beside the HTTP cache entry the module came from, and a
@@ -1623,7 +1623,7 @@ self.addEventListener('fetch', (event) => {
   // fetch() in that mode (a Worker's script loads in it too, with destination 'worker'). Reading request.cache of that
   // request crashed Chrome's renderer (exit code 133) when the page's cache was disabled through CDP
   // (Network.setCacheDisabled: Playwright, HAR recording) (UE-410982)
-  if (request.mode === 'same-origin' && request.destination === '') return;
+  // Pages handles same-origin reads as well because the host serves compressed URLs.
   // the page's session stream (serve.py --exit-after-session) goes straight to the network: it never ends, so it must not be
   // read or wrapped here
   if (request.url.split('?')[0].endsWith('/__ue/session')) return;

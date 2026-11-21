@@ -19,6 +19,10 @@
     "size": 111,
     "sha256": "ba49ae5586f817b36a2772269f71f899cb1f54b5f2720fad951319edd5e140b8"
   },
+  "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js": {
+    "size": 230124,
+    "sha256": "8fd03f7f7295261106f5e498e3055c3b3e5ebe638bb03725f42e24911d4fa335"
+  },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js.br": {
     "size": 44784,
     "sha256": "38a3092f40a2f293c4362f92e40dba2e7c1fa734fa6ff890340f706e9d3b76e6"
@@ -96,12 +100,16 @@
     "sha256": "8869d534aff624b7aa8bf66036531d6ad4789ba67f02f83aa3b79d14cae6b991"
   },
   "index.html": {
-    "size": 36631,
-    "sha256": "48b9a2d4417a52dd44fd4c6db9e7db7f82a1e59f88fb3607a2b822493af3ece2"
+    "size": 36719,
+    "sha256": "460a483084365c4c40b36a2023281d94f1febedf8677aebaa1b1c093359e8221"
+  },
+  "pages-bootstrap.js": {
+    "size": 2093,
+    "sha256": "0ab24f7b7726415f96d071158d0692d779411f37a274c327a8ecc95f38889fdf"
   },
   "sw.js": {
-    "size": 107494,
-    "sha256": "01d9edff93c1b9c4fd96c760c45950141a539cb54e460d37f4a887b4d275befa"
+    "size": 107437,
+    "sha256": "3c94678879c2514dea7cda266897e80079d2dba57d08337c432cc18d89fd5447"
   },
   "vendor/LICENSE-Apache.txt": {
     "size": 11357,
@@ -140,8 +148,8 @@
     "sha256": "e41709b840a667080145dfe24ab3f01d7a2cf505c0973dfb27a4e9b7dd8c68ad"
   },
   "wasm-loader.js": {
-    "size": 48447,
-    "sha256": "112b5b1c97abe45f5344ae48e13e6a9041c858779c23e5760bc33e2dbe4809cd"
+    "size": 47775,
+    "sha256": "8af7965d96b7680c919c215ace8ad142267e1bd595b75355f98a6d1b3db44daa"
   },
   "wasm-manifest.json": {
     "size": 3921,

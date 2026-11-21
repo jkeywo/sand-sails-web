@@ -3,7 +3,7 @@
 
 // The service worker's URL: ?swranges=wait|net and the isolation fallback as its own query
 function swUrl() {
-  const p = new URLSearchParams();
+  const p = new URLSearchParams({release: pageMeta('ue-pages-release')});
   if (query.get('swranges')) p.set('ranges', query.get('swranges'));
   if (pageMeta('ue-sw-isolation') === '1') p.set('isolate', '1');
   if (pageMeta('ue-sw-late-fill') === 'early') p.set('late', 'early');
@@ -128,7 +128,7 @@ async function swKilled() {
     if (!tried && await swKilled()) { tried = true; console.log('PAGE ISOLATION skipped: the data cache is off for this site'); }
     if (!tried) {
       try {
-        const registration = await navigator.serviceWorker.register(swUrl());
+        const registration = await navigator.serviceWorker.register(swUrl(), {updateViaCache: 'none'});
         // wait for the isolating worker itself (an older worker without isolate=1 makes 'ready' resolve at once,
         // and the reload would not be isolated)
         await new Promise((resolve) => {
@@ -363,7 +363,7 @@ async function swKilled() {
     } else {
       try {
         // ?swranges=wait registers the worker that waits for the whole-file load instead of reading ranges from the network
-        const registration = await navigator.serviceWorker.register(swUrl());
+        const registration = await navigator.serviceWorker.register(swUrl(), {updateViaCache: 'none'});
         swScope = registration.scope;
         // (A reload of a page whose worker was already active, and a hard reload, which the worker never controls,
         // waited here for ever at "Starting..."): a first install waits for the worker's claim (up to 15 s); an already active
@@ -436,17 +436,7 @@ async function swKilled() {
   // "net::ERR_CACHE_MISS", caught or not, so asking on every load put one console error on each cold visit (UE-410985), and on
   // every visit for a module over the HTTP cache's per-entry limit (UE-410984)
   let earlyFrom = 'data cache';
-  const earlyHeld = () => (swScope && typeof caches !== 'undefined'
-    ? caches.match(new URL('__ue/http-copy', swScope).href).then((r) => (r ? r.json() : null))
-      .then((record) => !!(record && record.held && record.held[earlyListed.sha1]), () => false)
-    : Promise.resolve(false));
-  const earlyResponse = () => {
-    if (!cached || !earlyListed.sha1) return fetch(earlyListed.url, { credentials: 'same-origin' });
-    return earlyHeld().then((held) => (!held ? fetch(earlyListed.url, { credentials: 'same-origin' })
-      : fetch(earlyListed.url + '?v=' + earlyListed.sha1, { cache: 'only-if-cached', mode: 'same-origin' })
-        .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); earlyFrom = "browser's HTTP cache"; return r; })
-        .catch(() => fetch(earlyListed.url, { credentials: 'same-origin' }))));
-  };
+  const earlyResponse = () => fetch(earlyListed.url, { credentials: 'same-origin' });
   const earlyModule = earlyListed && query.get('wasmearly') !== '0' && WebAssembly.compileStreaming && (cached || !splitFiles.length)
     ? WebAssembly.compileStreaming(earlyResponse()).catch((e) => {
       console.log('PAGE WASM_EARLY compile failed, compiling from bytes: ' + e);

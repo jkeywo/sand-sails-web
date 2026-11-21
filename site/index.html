@@ -422,7 +422,8 @@ for (const level of ['log', 'warn', 'error']) {
 window.ueExtraArgs = [...(window.ueExtraArgs || []), '-SaveToUserDir'];
 </script>
 <!-- /Sand Sails browser saves -->
-<script src="wasm-loader.js"></script>
+<meta name="ue-pages-release" content="26fee041da40bb81">
+<script src="pages-bootstrap.js?release=26fee041da40bb81"></script>
 <script>
 // The page's default hooks: pointer lock for mouse look, taken on a click in the canvas (and within the cover's click in
 // ue-start=click). A game that installs its own Module.ueWebPage ({lock(), wanted}) keeps it.
