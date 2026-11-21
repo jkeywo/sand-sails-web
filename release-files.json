@@ -21,15 +21,15 @@
   },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js": {
     "size": 230124,
-    "sha256": "8fd03f7f7295261106f5e498e3055c3b3e5ebe638bb03725f42e24911d4fa335"
+    "sha256": "83d206da8f4f6fa7c048d3c5fce44fd1bc5afecd2e3859a4ecb8a34320fd320f"
   },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js.br": {
-    "size": 44784,
-    "sha256": "38a3092f40a2f293c4362f92e40dba2e7c1fa734fa6ff890340f706e9d3b76e6"
+    "size": 44731,
+    "sha256": "db051f3043a7b17e0164bd5f67be262011b96c9e3e04718557ea93f044101bc7"
   },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br": {
-    "size": 26655171,
-    "sha256": "e240a2ce0ddd77a379d7a2abfa04f91bc6f47d561956c99d46562b3e1c6bb669"
+    "size": 26654286,
+    "sha256": "231ef8140266aa62cd7d059a0710fd65ec8db890254c49fa0aa7e4a8da0d6f16"
   },
   "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br": {
     "size": 8660388,
@@ -93,7 +93,7 @@
   },
   "build-info.json": {
     "size": 276,
-    "sha256": "aceb959a06abb10c1cbbefef3ad708420af6b90e37d378c2893d5321207838ba"
+    "sha256": "62bbb3dcde3feef7e47a680d083303bec10eb002822f3e0ab38ccc7320b42bad"
   },
   "controller.html": {
     "size": 3984,
@@ -101,7 +101,7 @@
   },
   "index.html": {
     "size": 36719,
-    "sha256": "460a483084365c4c40b36a2023281d94f1febedf8677aebaa1b1c093359e8221"
+    "sha256": "7a9d8b4d265f521e3dd562d3a417b344d783a47376c1a5cf38b142e400a87e6e"
   },
   "pages-bootstrap.js": {
     "size": 2093,
@@ -109,7 +109,7 @@
   },
   "sw.js": {
     "size": 107437,
-    "sha256": "3c94678879c2514dea7cda266897e80079d2dba57d08337c432cc18d89fd5447"
+    "sha256": "f67af52c83990ec72389d19b0a86ed463db3151a8fbc2a129ba448e8d8a30ac1"
   },
   "vendor/LICENSE-Apache.txt": {
     "size": 11357,
@@ -132,8 +132,8 @@
     "sha256": "a81911981ff71c3223d318de18e9a656a757f69fd7af104c54d181958a689101"
   },
   "wasm-cache.json": {
-    "size": 3157,
-    "sha256": "93df42a77946113c347c22346fb871c01eebf7312b72eb2b09ae88867b4e7c2f"
+    "size": 3178,
+    "sha256": "8bd8c9bf1a3148eb6b8f9f777efbd238c2c0d8e1d61345a3d33605f941293285"
   },
   "wasm-compat.js": {
     "size": 70467,
