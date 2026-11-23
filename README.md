@@ -1,7 +1,7 @@
-# Sand Sails web release
+# Letters to Windward web release
 
 Desktop and Android WebGPU browser build, published to GitHub Pages by Actions on push to main.
-[Play Sand Sails](https://jkeywo.github.io/sand-sails-web/) ·
+[Play Letters to Windward](https://jkeywo.github.io/sand-sails-web/) ·
 [Controller check](https://jkeywo.github.io/sand-sails-web/controller.html).
 Open the Pages URL in current desktop Chrome or Edge and click Start. Select New Game
 to set sail or Continue Game to resume a saved voyage. The main menu also has Settings

@@ -1,7 +1,7 @@
 <!doctype html>
 <!-- The page of a staged Wasm game (one generic page). UAT stages it at the folder's root next to
      wasm-manifest.json and replaces SandSails with the project's name (the folder of its .js and .wasm, in
-     <Project>/Binaries/Wasm/) and Sand Sails with its title (WasmPlatform.Automation.cs).
+     <Project>/Binaries/Wasm/) and Letters to Windward with its title (WasmPlatform.Automation.cs).
      The cover: the game starts at once behind it; the cover lists the start-up steps with a loading bar and lifts when the engine
      says the game is ready ('ue-ready', wasm-play.js). Sound starts on the first click or key (browsers allow audio only after
      a gesture). The ue-start meta set to "click" keeps the cover up after ready until the player clicks (that click is the
@@ -14,12 +14,12 @@
      (device pixels per CSS pixel, default 1), ue-start (auto|click), ue-hint ("Esc=Menu;Tab=Controls": the key hint shown while
      playing, none by default), ue-gpucheck (1: the first-visit GPU check picks a starting resolution), ue-native-build (a link
      for players whose browser cannot run the game). -->
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Sand Sails</title><meta name="ue-project" content="SandSails"><meta name="ue-game" content="SandSails"><link rel="icon" href="data:,">
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>Letters to Windward</title><meta name="ue-project" content="SandSails"><meta name="ue-game" content="SandSails"><link rel="icon" href="data:,">
 <!-- The name under a home-screen icon on iOS. Installing the game (a progressive web app: Add to Home Screen, Install in
      Chrome and Edge, then it opens without the browser's bars) is opt-in: with bInstallable UAT stages manifest.webmanifest
      (name, display mode, orientation, colours, icons, filled from the Install settings) and the icons, and adds the manifest
      link (rel manifest) and the home-screen icon iOS takes from the page (rel apple-touch-icon) after this tag -->
-<meta name="apple-mobile-web-app-title" content="Sand Sails">
+<meta name="apple-mobile-web-app-title" content="Letters to Windward">
 <!-- UE switches every load gets (wasm-loader.js puts them after ?args=). Threads: Chrome stops at about 76 Workers, so the
      task graph creates its workers on demand and oversubscribes by a quarter (at least one standby worker per queue, so a
      worker task that waits on another task cannot deadlock its queue; at most 4 more threads, inside the pthread pool);
@@ -264,18 +264,18 @@ td{padding:3px 6px;border-bottom:1px solid #262626;vertical-align:top}
 td:first-child{white-space:nowrap;color:var(--accent);width:1%}
 </style><meta name="ue-audio-thread" content="1">
 <meta name="ue-memory64" content="lowered">
-<meta name="ue-texture-sets" content="bc=texture-compression-bc;astc=texture-compression-astc">
+<meta name="ue-texture-sets" content="bc=texture-compression-bc;astc=texture-compression-astc@mobile">
 </head>
-<body><canvas id="canvas" tabindex="0" aria-label="Sand Sails"></canvas><div id="status"></div>
+<body><canvas id="canvas" tabindex="0" aria-label="Letters to Windward"></canvas><div id="status"></div>
 <div id="toast" role="status" hidden><span id="toast-text"></span><button id="toast-close" type="button" aria-label="Dismiss">&times;</button></div>
 <div id="hint" hidden><span id="hint-keys"></span><span class="sound" id="hint-sound" hidden data-i18n>Click or press a key for sound</span></div>
 <div id="rotate" role="alert"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M21 9a9 9 0 0 1-3 7M18 16v-3.5M18 16h3.5"/></svg><span data-i18n>Turn your phone sideways to play</span></div>
 <div id="cover" role="dialog" aria-modal="true" aria-labelledby="cover-title" aria-busy="true">
   <div id="shell"></div>
   <div id="art">
-    <div class="title"><h1 id="cover-title">Sand Sails</h1>
+    <div class="title"><h1 id="cover-title">Letters to Windward</h1>
       <div id="loader"><div class="bar" role="progressbar" aria-label="Loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressbar"><div id="bar"></div></div><div id="progress-text" role="status" aria-live="polite" data-i18n>Starting...</div></div>
-      <div id="notice" hidden></div><p style="font:12px system-ui;opacity:.75;margin-top:20px">Build 20261121T190533Z-f9b5966e · <a style="color:inherit" href="controller.html" target="_blank" rel="noopener">Controller check</a></p></div></div>
+      <div id="notice" hidden></div><p style="font:12px system-ui;opacity:.75;margin-top:20px">Build 20261123T124752Z-c541262e · <a style="color:inherit" href="controller.html" target="_blank" rel="noopener">Controller check</a></p></div></div>
   <ol id="steps" aria-label="Start-up steps"></ol>
   <div id="ended" class="card endcard" hidden><h1 id="ended-title" data-i18n>Thanks for playing</h1>
     <p class="sub" data-i18n>The game has ended.</p>
@@ -422,8 +422,8 @@ for (const level of ['log', 'warn', 'error']) {
 window.ueExtraArgs = [...(window.ueExtraArgs || []), '-SaveToUserDir'];
 </script>
 <!-- /Sand Sails browser saves -->
-<meta name="ue-pages-release" content="edd0979d64f79f07">
-<script src="pages-bootstrap.js?release=edd0979d64f79f07"></script>
+<meta name="ue-pages-release" content="1188d2b30994e232">
+<script src="pages-bootstrap.js?release=1188d2b30994e232"></script>
 <script>
 // The page's default hooks: pointer lock for mouse look, taken on a click in the canvas (and within the cover's click in
 // ue-start=click). A game that installs its own Module.ueWebPage ({lock(), wanted}) keeps it.

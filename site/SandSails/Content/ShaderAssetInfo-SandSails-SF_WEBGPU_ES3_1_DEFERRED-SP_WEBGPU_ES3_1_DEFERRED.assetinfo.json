@@ -165,6 +165,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "25050E0E3C0C810A",
+			"Assets": [
+				"/Game/Activities/Pilgrims/M_PilgrimFlame"
+			]
+		},
+		{
 			"ShaderMapHash": "254D3767C13323AC",
 			"Assets": [
 				"/Game/Materials/Hub"
@@ -245,7 +251,6 @@
 				"/Game/DesertWorld/_Generated_/6MCWE6F24Z6RBJ1YKHZ9Q2MDV",
 				"/Game/DesertWorld/_Generated_/6OFT1XFVRCQDCYMBQ3G8IK21Q",
 				"/Game/DesertWorld/_Generated_/6QSSA83BSWGK7PO20AC5VY0UT",
-				"/Game/DesertWorld/_Generated_/6S3UWVNGSNK2S8VOA1HXOIK1N",
 				"/Game/DesertWorld/_Generated_/6U0LPG1WIQR15TG0MNUAPYGST",
 				"/Game/DesertWorld/_Generated_/6VCNQYXGU5RZVQEQUP0ATCV6W",
 				"/Game/DesertWorld/_Generated_/6YHU9UQ9SRUSFX6PW1XNRQIX5",
@@ -641,6 +646,7 @@
 			"Assets": [
 				"/Game/DesertWorld/_Generated_/07RHEIRSEJWZGU3YLFJSEVMQF",
 				"/Game/DesertWorld/_Generated_/5ABIL4P8QF8550PCCVPFLKXUA",
+				"/Game/DesertWorld/_Generated_/6S3UWVNGSNK2S8VOA1HXOIK1N",
 				"/Game/DesertWorld/_Generated_/AK2HHIDO7VI38J6JLU7VK6NMT",
 				"/Game/DesertWorld/_Generated_/F3L10G0P8FAEXJJTHX202QCUZ",
 				"/Game/DesertWorld/_Generated_/F49FF1STB27OE7TFAXMJXF6NF"
@@ -770,6 +776,12 @@
 			"ShaderMapHash": "77222CC18C09A1BB",
 			"Assets": [
 				"/Engine/EngineMaterials/DefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "790517572F5A3961",
+			"Assets": [
+				"/Game/Materials/RockGrey"
 			]
 		},
 		{
@@ -958,6 +970,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "A3197D68CDC2F7CF",
+			"Assets": [
+				"/Game/Materials/RockOchre"
+			]
+		},
+		{
 			"ShaderMapHash": "A41F647193604920",
 			"Assets": [
 				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Mask",
@@ -1032,7 +1050,6 @@
 		{
 			"ShaderMapHash": "AF715AEC72C01D14",
 			"Assets": [
-				"/Game/DesertWorld/_Generated_/07KOQKKV1TG2PM3OHEDIOTYMC",
 				"/Game/DesertWorld/_Generated_/0FF66TTE39BCYHGDB4XQATNPU",
 				"/Game/DesertWorld/_Generated_/0OF97T5LKVHO2DKL7UXK9F3YV",
 				"/Game/DesertWorld/_Generated_/0Z71C0IBTQDIOKAYQWLDWP1G4",
@@ -1080,7 +1097,6 @@
 				"/Game/DesertWorld/_Generated_/5V08OBXO1DXU6X2THPKVN2A55",
 				"/Game/DesertWorld/_Generated_/5XACAJ45F6025VZ4QZ98XMX7C",
 				"/Game/DesertWorld/_Generated_/62SI3QNG6AHJW3JY8BNGW1TA4",
-				"/Game/DesertWorld/_Generated_/6504BOPB52GGNIT82XKK95J76",
 				"/Game/DesertWorld/_Generated_/6CKYOTEPRTWNHZ7Z2OWYKOIKV",
 				"/Game/DesertWorld/_Generated_/6GTX5GOXERR8PGUBAPEXARWDO",
 				"/Game/DesertWorld/_Generated_/6ZIPKPXNPIAUOS5GOGYI3K9ZU",
@@ -1165,11 +1181,9 @@
 				"/Game/DesertWorld/_Generated_/53LNOFZYZJIV6T9ZXRFI66TOT",
 				"/Game/DesertWorld/_Generated_/5Q0R33BZUQ58XQJUP00FY5U1Y",
 				"/Game/DesertWorld/_Generated_/61BKJLDHCHU7AWQJ8S8A7MZDK",
-				"/Game/DesertWorld/_Generated_/6DASXSW74QZNGVL9GRQT8XD8M",
 				"/Game/DesertWorld/_Generated_/6HT1QATP6GPZCKFX2BU7CWAZJ",
 				"/Game/DesertWorld/_Generated_/6XYY1Q7EQYQQ6V76XW38PTBXB",
 				"/Game/DesertWorld/_Generated_/7K5SLPQVUIKNUDFPQPS394UQX",
-				"/Game/DesertWorld/_Generated_/8TX8TA2CL9JPVSMNVX5JNJCZI",
 				"/Game/DesertWorld/_Generated_/985ONAPB4DDYRMP5MVX3TXYFA",
 				"/Game/DesertWorld/_Generated_/9QCODZDQ0LMFYBJHLTU21MGWY",
 				"/Game/DesertWorld/_Generated_/A4XTBLKU3FPDAHW75FYW5K413",
@@ -1262,6 +1276,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "B9ABE396A9B47855",
+			"Assets": [
+				"/Game/Activities/Pilgrims/M_PilgrimFireGlow"
+			]
+		},
+		{
 			"ShaderMapHash": "BB98BF5E5AE16C3A",
 			"Assets": [
 				"/Game/DesertWorld/_Generated_/2EJTCUIKAQIG3AY8LEATVFHP7",
@@ -1348,7 +1368,6 @@
 				"/Game/DesertWorld/_Generated_/67L5ZIUZFB9QCDFSVW2JEXEJK",
 				"/Game/DesertWorld/_Generated_/6C5P7YO063DRZ77P1PQWOCV14",
 				"/Game/DesertWorld/_Generated_/ADB1D0YNG3MK7MBYDC4YB8854",
-				"/Game/DesertWorld/_Generated_/AK2HHIDO7VI38J6JLU7VK6NMT",
 				"/Game/DesertWorld/_Generated_/CPB4MP4T06V1DDD00AHA938P1",
 				"/Game/DesertWorld/_Generated_/EZ1LWSSJFPWPEH2NUHZ9IJLKH"
 			]
@@ -1384,6 +1403,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "E47D3AF6B3E0E76A",
+			"Assets": [
+				"/Game/DesertWorld/_Generated_/07KOQKKV1TG2PM3OHEDIOTYMC"
+			]
+		},
+		{
 			"ShaderMapHash": "E64D0F075D5F1F59",
 			"Assets": [
 				"/InterchangeAssets/gltf/M_Unlit"
@@ -1411,6 +1436,12 @@
 			"ShaderMapHash": "EC0D1FD6F2F0241C",
 			"Assets": [
 				"/InterchangeAssets/gltf/M_ClearCoat"
+			]
+		},
+		{
+			"ShaderMapHash": "ED87E97B1BF75E1E",
+			"Assets": [
+				"/Game/Materials/RockUmber"
 			]
 		},
 		{

@@ -2,6 +2,6 @@
   "version": 1,
   "sets": [
     {"name": "bc", "features": ["texture-compression-bc"], "only": ["SandSails/Content/Paks/SandSails-Wasm.pak", "SandSails/Content/Paks/SandSails-Wasm.ucas", "SandSails/Content/Paks/SandSails-Wasm.utoc"]},
-    {"name": "astc", "features": ["texture-compression-astc"], "folder": "ASTC", "files": ["SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak", "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas", "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.utoc"]}
+    {"name": "astc", "features": ["texture-compression-astc"], "folder": "ASTC", "files": ["SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak", "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas", "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.utoc"], "mobileOnly": true, "desktopKept": ["SandSails/Content/ShaderAssetInfo-SandSails-SF_WEBGPU_ES3_1_DEFERRED-SP_WEBGPU_ES3_1_DEFERRED.assetinfo.json"]}
   ]
 }
