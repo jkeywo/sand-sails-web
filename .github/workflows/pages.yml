@@ -3,22 +3,17 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-permissions:
-  actions: read
-  contents: read
-  pages: write
-  id-token: write
 concurrency:
   group: pages
   cancel-in-progress: false
 jobs:
-  deploy:
+  package:
     runs-on: ubuntu-latest
-    env:
-      PAGES_ARTIFACT: github-pages-${{ github.run_attempt }}
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      artifact_name: ${{ steps.artifact.outputs.name }}
     steps:
       - uses: actions/checkout@v6
       - name: Reassemble release payload
@@ -26,24 +21,24 @@ jobs:
       - name: Verify release byte integrity
         run: python tools/verify_release.py
       - uses: actions/configure-pages@v5
+      - name: Select Pages artifact name
+        id: artifact
+        run: echo "name=github-pages-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-pages-artifact@v4
         with:
-          name: ${{ env.PAGES_ARTIFACT }}
+          name: ${{ steps.artifact.outputs.name }}
           path: site
-      - name: Wait for Pages artifact metadata
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          endpoint="repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=$PAGES_ARTIFACT"
-          for attempt in {1..30}; do
-            if count=$(gh api "$endpoint" --jq '.total_count') && [[ "$count" == 1 ]]; then
-              exit 0
-            fi
-            sleep 4
-          done
-          echo "Pages artifact $PAGES_ARTIFACT did not become visible."
-          exit 1
+  deploy:
+    needs: package
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - uses: actions/deploy-pages@v4
         id: deployment
         with:
-          artifact_name: ${{ env.PAGES_ARTIFACT }}
+          artifact_name: ${{ needs.package.outputs.artifact_name }}
