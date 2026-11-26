@@ -21,39 +21,39 @@
   },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js": {
     "size": 230124,
-    "sha256": "f8f001ea81de40f614d9f8ff1a04837acafe3d1fa6daeab8d0ba97465baca7d3"
+    "sha256": "cfa5c8f7ed734a8c3f0703cabe8b8e7cbc0944fb22d5ccfe758e962932e45320"
   },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.js.br": {
-    "size": 44748,
-    "sha256": "83e67bdc5246845d7b6b932d7fd41ad6069c2c1a2556bd6f213b3dee884cf17b"
+    "size": 44721,
+    "sha256": "d46161be3a281ade8a12a88a760cfdd4eefdc9242d5bd4d119640f217914a2e3"
   },
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br": {
-    "size": 26676242,
-    "sha256": "cbe8e3dc5639300a6de1402ba2659194f364cafff32ef22388a6b21f27dd6104"
+    "size": 26695641,
+    "sha256": "d8700f27733e1a834994f1325f4f45598e1698c73e92872f1fcd2b0d8100dce1"
   },
   "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br": {
-    "size": 8679532,
-    "sha256": "c83b75d25771aaf7ba28e11d291ea1ada5116f67559c1a594d65d052af5bb856"
+    "size": 8679860,
+    "sha256": "332d9d6f707a26ef971de3c27f6c1316c78d22fd76488f2373c905a22ce38000"
   },
   "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.ucas": {
-    "size": 189532864,
-    "sha256": "c938942d5dc4a90390df358b32f144481da1b0086cdc68e4debc41a24e044753"
+    "size": 189487952,
+    "sha256": "610ceb0a69694971a75d86f2ac6d77da07d98b445b633c1ced4ae1dfe3849678"
   },
   "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.utoc.br": {
-    "size": 280560,
-    "sha256": "ad9050ac85f9bd0de9d5c770b60bc750233b417ddbe54bf5874a3f9510306e70"
+    "size": 280001,
+    "sha256": "02596fd4bafb21eb9a3f9ffdfd52e6556f7f34053151c0d76644b47af3bcea54"
   },
   "SandSails/Content/Paks/SandSails-Wasm.pak.br": {
-    "size": 8680041,
-    "sha256": "06591c6f436a2e4342c8c88f55262174ecbb80d07ac8dd2d2c94e844b6f73f38"
+    "size": 8679612,
+    "sha256": "205a6fc73aaffd3cb173b7f2acaa34cdca40bdc5ab143caec64348b109579415"
   },
   "SandSails/Content/Paks/SandSails-Wasm.ucas": {
-    "size": 176084864,
-    "sha256": "a3f7b331a60bdf44656017435ca720b11609aadaecc0808e68541b6dec24824f"
+    "size": 176040240,
+    "sha256": "eecf07db0e0c99f18dc1be3b7a6b57ace71a6579617c56d4a5b43ab28ed2e9f1"
   },
   "SandSails/Content/Paks/SandSails-Wasm.utoc.br": {
-    "size": 276896,
-    "sha256": "45e73f00d6707254c5e9de70a1374cd499e0f043a948728704c73787ff777216"
+    "size": 276901,
+    "sha256": "c68dd612a8765e24d621c42072f1d8ec0977c22b12b1c7dc0a831fc517f4f644"
   },
   "SandSails/Content/Paks/global.ucas": {
     "size": 16,
@@ -93,15 +93,15 @@
   },
   "build-info.json": {
     "size": 276,
-    "sha256": "0276791c6cbc88238bf4892a6d7012ceca2e98c290312022208bc911f166ac98"
+    "sha256": "4e45f8a6266e862d3e6911630681d6400128dff8a8d3b44e21b72591413a3e4f"
   },
   "controller.html": {
-    "size": 4002,
-    "sha256": "61d3d7245c9681be25ccf2a0d03a90a1abe0f7012ad9cf2005dea7156dd492fa"
+    "size": 4058,
+    "sha256": "20d94ef1ae8a795b3f801fd242f1334990e9b9c24591bd8140634572b40b2a30"
   },
   "index.html": {
     "size": 37304,
-    "sha256": "d86fc8af9b638f57640c800f57162df67a750acb8fb895faaa7b18eda405cdf3"
+    "sha256": "867b58b1af514e3cccfd96828c04fd13c1459188eafccacb5e2774fab70f320e"
   },
   "pages-bootstrap.js": {
     "size": 2093,
@@ -109,15 +109,15 @@
   },
   "sw.js": {
     "size": 107437,
-    "sha256": "f21f3c0f9c63273d48ec525c7fbe9136b1235c4aca9b3e85fbc6efcd30cfcf54"
+    "sha256": "263596d47593e6841795df8b29371666d787e15e029d0fe0c8560f9fbc0d522d"
   },
   "vendor/LICENSE-Apache.txt": {
-    "size": 11357,
-    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    "size": 11558,
+    "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
   },
   "vendor/LICENSE-MIT.txt": {
-    "size": 1081,
-    "sha256": "e896322d037d6154296c5b3d1876a90977770704dd74799751f52f27e0483905"
+    "size": 1090,
+    "sha256": "c43b8f1b9c5e82b9480ee444bebc2ce3782abd6ec3dec6ff9d0248d8ece466be"
   },
   "vendor/README.md": {
     "size": 192,
@@ -133,7 +133,7 @@
   },
   "wasm-cache.json": {
     "size": 3157,
-    "sha256": "40765d2dc744d92ff20dc00268892404e19b79f9c9c3b40607fc037c69a18bfc"
+    "sha256": "55c741fe89b622ab636e329301cd288120abdbbde997ea3c38ffb33cbb3f4c5a"
   },
   "wasm-compat.js": {
     "size": 70467,
@@ -153,7 +153,7 @@
   },
   "wasm-manifest.json": {
     "size": 3921,
-    "sha256": "c523693c4932781958f836614a4fe30eeaf306f7b50fba1511de86ea5b6dada3"
+    "sha256": "c356bdfb521e42d666a89edf004897edc08c2fc3c7ef53e05bd4351b0a39185c"
   },
   "wasm-memory.js": {
     "size": 11835,
