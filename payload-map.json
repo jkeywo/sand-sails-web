@@ -1,69 +1,69 @@
 {
   "SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br": {
-    "size": 26687134,
-    "sha256": "52febd90c2c6fe1280df1476a545ec8c4a9bdc039a36a65b032dd8e3db7766ee",
+    "size": 26676242,
+    "sha256": "cbe8e3dc5639300a6de1402ba2659194f364cafff32ef22388a6b21f27dd6104",
     "parts": [
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-000",
-        "sha256": "46ff86b56651befc0374316010ff6b02d257bb777d16b0caa8b88c005da48b00"
+        "sha256": "1056a834709a4ed9354c8bdb57aa39791092b161d0abb9c57ea94ae91ba0d2ca"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-001",
-        "sha256": "fb67464710a5388e8c9ae30593e1481d4f0a7563c8a929b800ddc2c33ea931b9"
+        "sha256": "34aea05b7080d5e8c3ca37e18357027bf642b926836ea97dc9695e9903d02942"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-002",
-        "sha256": "22aa3c64bee58ae113d6b9fef1fd40200aae0890c4f2a65c6444b837982e6a79"
+        "sha256": "a4bcb4d4d17a04c9b8f4d0d217e6fdd0304496f3ef913b12a31aef6426a05d04"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-003",
-        "sha256": "3e5b906f4541f11705a24f1097e1f41f9d4eac4d18a54a13867fb974f1a9a0c8"
+        "sha256": "790329ae2b18567e41d42b0054a0c80df03dc77aeae4d9c3fbb1c55f084ce429"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-004",
-        "sha256": "4a3ff0f456de1f5b0e3405c3e20b86fa103551fd32fb7769540a14e0d283a04a"
+        "sha256": "3100e0e13112419a41aadbb561183b9d305ee06d6dd019cf49a1a9e79cccbc59"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-005",
-        "sha256": "82ec998a3a1eee97de246d685f02b64b2db884c520d50a5569ae6e5a95207dd2"
+        "sha256": "822986b8f821772c95c4fb787bb7e3b3e4df28cb907a5121202d09658367a55d"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-006",
-        "sha256": "95e78604b671fad654e2d2aaed1dffab7cb974f06e47e757b9adb484149a2d2f"
+        "sha256": "62c80f49f7fc782614150c93b19a2152dccb3bb71da5f151c2890f11264f74f4"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-007",
-        "sha256": "694c4f8591e299a3ace5cda3348f7d4ff45340d340a7a4b13c98cfc9e5d27f74"
+        "sha256": "fb7daf31e03eb1221ddf75467fedaa2b7392278f717003771742ca56dd59e119"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-008",
-        "sha256": "fdc97a7ca2a54ac4425d109f0598ae5de106b029be9a3099bd8a68a1945a4084"
+        "sha256": "3fb5c17583bbf02ff447411e2a89a5e7e2dfa079d3857e4fbe539feda6864c4b"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-009",
-        "sha256": "619514551cc458bd90311ed772ece17f1cb3bf2a74d690a357e701771403efa1"
+        "sha256": "004eaa9e9b38a89311594f9be2c60ec81fd96f08dc7b1277608b6dfb8f92cbf1"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-010",
-        "sha256": "c38c638afaefe006029fce4b342504ffbeb38f73bcf6478bcd5ef056746a1a7b"
+        "sha256": "b97c1be7caae93e0c0d695bad5ecbfb46e6be1d10e46e5414889fb26d511e13f"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-011",
-        "sha256": "2e0130a943f788e3ed5c00cb300fdea72c627286745eadfde5b2de6144194f4f"
+        "sha256": "b68baf5b74fd4f4dda9b64ed0abf4e54a7edb4d6c34bf6b2c408ba20fb119586"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-012",
-        "sha256": "e8ea9d6c58b4a232be725722a88f063bb71a28888448916f17a7c1c5f1c35d8e"
+        "sha256": "fb4cdf4650a540d7c98f8e3b5df85bf809659537322c01747f29139811442853"
       },
       {
         "path": "payload/SandSails/Binaries/Wasm/SandSails-Wasm-Shipping.wasm.br.part-013",
-        "sha256": "bb7769affe45662dd54ec1ffb1f8b84141cb84d306b8cf6d8787396ec9ff2d35"
+        "sha256": "678a18f86ba99c7e31b218cdfcf311deeeee92c692a5b9dc6b3d8620b0edeaa1"
       }
     ]
   },
   "SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br": {
-    "size": 8680082,
-    "sha256": "cadb9b1e0400f8512bec230d534e2012acf30d01dadcc526d19003d482c2c7f3",
+    "size": 8679532,
+    "sha256": "c83b75d25771aaf7ba28e11d291ea1ada5116f67559c1a594d65d052af5bb856",
     "parts": [
       {
         "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br.part-000",
@@ -79,11 +79,11 @@
       },
       {
         "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br.part-003",
-        "sha256": "cae1116cf7f825a52052a264df97f0d48e111fded145d5cb9e8cb2eb5441127a"
+        "sha256": "a0cf11749b8636587634eefccc8d834f56f9fe31a4abfd134a0b49fdfb5baacd"
       },
       {
         "path": "payload/SandSails/Content/Paks/ASTC/SandSails-Wasm_ASTC.pak.br.part-004",
-        "sha256": "aee62450e680e4e9ce96e85b6c759b6f15abdd13f9765cf521a1fe6f95c6413c"
+        "sha256": "6820e971cc0ee4fe71424ac2c58e68366a0b3b5a64392641fa86200f7fe9336d"
       }
     ]
   },
@@ -474,8 +474,8 @@
     ]
   },
   "SandSails/Content/Paks/SandSails-Wasm.pak.br": {
-    "size": 8679524,
-    "sha256": "bfdabffa61c6545e6f60ee0d4ea69eb725d627a7da7b48f45364c1488d14d353",
+    "size": 8680041,
+    "sha256": "06591c6f436a2e4342c8c88f55262174ecbb80d07ac8dd2d2c94e844b6f73f38",
     "parts": [
       {
         "path": "payload/SandSails/Content/Paks/SandSails-Wasm.pak.br.part-000",
@@ -491,11 +491,11 @@
       },
       {
         "path": "payload/SandSails/Content/Paks/SandSails-Wasm.pak.br.part-003",
-        "sha256": "6ba917a487e99f7ee79d1ad3e965f77747d6c61c2547ba64dce9bd0978558e81"
+        "sha256": "11e2febc98e9c164ef1f44de5079ce1869ad2e1bef29bacd9f34cf3a3bd1289d"
       },
       {
         "path": "payload/SandSails/Content/Paks/SandSails-Wasm.pak.br.part-004",
-        "sha256": "d26b810e6ce17dde151a70fab64ae63dcbe7f14d3787e4ce9c18792fb12c90be"
+        "sha256": "97a6d6135258a3cf771bde3808f5483bb7263bd4eed081b93bd7e2d84758652a"
       }
     ]
   },

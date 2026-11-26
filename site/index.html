@@ -264,7 +264,7 @@ td{padding:3px 6px;border-bottom:1px solid #262626;vertical-align:top}
 td:first-child{white-space:nowrap;color:var(--accent);width:1%}
 </style><meta name="ue-audio-thread" content="1">
 <meta name="ue-memory64" content="lowered">
-<meta name="ue-texture-sets" content="bc=texture-compression-bc;astc=texture-compression-astc@mobile">
+<meta name="ue-texture-sets" content="bc=texture-compression-bc;astc=texture-compression-astc">
 </head>
 <body><canvas id="canvas" tabindex="0" aria-label="Letters to Windward"></canvas><div id="status"></div>
 <div id="toast" role="status" hidden><span id="toast-text"></span><button id="toast-close" type="button" aria-label="Dismiss">&times;</button></div>
@@ -275,7 +275,7 @@ td:first-child{white-space:nowrap;color:var(--accent);width:1%}
   <div id="art">
     <div class="title"><h1 id="cover-title">Letters to Windward</h1>
       <div id="loader"><div class="bar" role="progressbar" aria-label="Loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressbar"><div id="bar"></div></div><div id="progress-text" role="status" aria-live="polite" data-i18n>Starting...</div></div>
-      <div id="notice" hidden></div><p style="font:12px system-ui;opacity:.75;margin-top:20px">Build 20261125T220543Z-36fc0523 · <a style="color:inherit" href="controller.html" target="_blank" rel="noopener">Controller check</a></p></div></div>
+      <div id="notice" hidden></div><p style="font:12px system-ui;opacity:.75;margin-top:20px">Build 20261126T093235Z-195c675d · <a style="color:inherit" href="controller.html" target="_blank" rel="noopener">Controller check</a></p></div></div>
   <ol id="steps" aria-label="Start-up steps"></ol>
   <div id="ended" class="card endcard" hidden><h1 id="ended-title" data-i18n>Thanks for playing</h1>
     <p class="sub" data-i18n>The game has ended.</p>
@@ -420,10 +420,22 @@ for (const level of ['log', 'warn', 'error']) {
 <!-- Sand Sails browser saves -->
 <script>
 window.ueExtraArgs = [...(window.ueExtraArgs || []), '-SaveToUserDir'];
+(() => {
+  const profile = window.ueProfile;
+  const threading = window.ueCompat?.threading();
+  const cpus = navigator.hardwareConcurrency;
+  if (threading?.class !== 'desktop' || threading.threads !== 'threaded'
+      || window.ueCompat.browser().name !== 'Chrome'
+      || !profile || profile.poolSize || threading.pool || !(cpus > 0 && cpus < 11)) return;
+
+  // The UE 5.9 desktop pool can start with 29 workers. Switching to Medium
+  // can request more workers while rendering is in flight.
+  profile.poolSize = 34;
+})();
 </script>
 <!-- /Sand Sails browser saves -->
-<meta name="ue-pages-release" content="c19f7984280fa5dd">
-<script src="pages-bootstrap.js?release=c19f7984280fa5dd"></script>
+<meta name="ue-pages-release" content="4f2f9199fe036eac">
+<script src="pages-bootstrap.js?release=4f2f9199fe036eac"></script>
 <script>
 // The page's default hooks: pointer lock for mouse look, taken on a click in the canvas (and within the cover's click in
 // ue-start=click). A game that installs its own Module.ueWebPage ({lock(), wanted}) keeps it.
